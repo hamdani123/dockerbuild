@@ -20,7 +20,7 @@
      - name: create container
        docker_container:
          name: container_by_jenkins
-         image: ronychandraidn/apache-jenkins:latest
+         image: daniawm/apache-jenkins:latest
          state: started
          published_ports:
            - 83:80
