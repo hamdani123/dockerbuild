@@ -14,7 +14,7 @@
       - ansible_distribution == "Ubuntu"
     - name: pull image
       docker_image:
-        name: ajizkai/apache-jenkins:latest
+        name: da/apache-jenkins:latest
         pull: yes
         rm: yes
     - name: create container
